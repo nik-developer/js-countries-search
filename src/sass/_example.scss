@@ -1,0 +1,54 @@
+body {
+  background-image: url(../images/whitey.png);
+}
+.country-card {
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.gallery-text {
+  margin-top: 0;
+}
+.country-card {
+  text-align: center;
+}
+
+input:focus + label {
+  display: none;
+}
+.gallery-link {
+  cursor: pointer;
+}
+.gallery-link:hover {
+  color: rgb(46, 163, 202);
+  .gallery {
+    list-style: none;
+    text-decoration: none;
+  }
+}
+h1 {
+  margin-top: 0;
+}
+
+ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+.main-info {
+  width: 200px;
+  text-align: start;
+}
+.gallery-img {
+  width: 500px;
+}
+.country-info {
+  display: flex;
+}
+.search-form {
+  margin-bottom: 15px;
+}
